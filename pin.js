@@ -1,8 +1,7 @@
 const newCartSide = ()=>{
     return {
-        pegs: [1, 1, 1, 1, 1, 1, 1,
-            1, 1, 1, 1, 1, 1, 1
-        ]
+        // https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript
+        pegs: Array.apply (null, Array(14)).map (() => {return 1;})
     };
 };
 const main = ()=>{
