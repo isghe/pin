@@ -1,0 +1,14 @@
+{
+  "name": "pin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isidoro Ghezzi, isidoro.ghezzi@icloud.com",
+  "license": "ISC",
+  "dependencies": {
+    "xo": "^0.53.1"
+  }
+}
